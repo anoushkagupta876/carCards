@@ -48,7 +48,7 @@ I learned rather discovered how to make all the Learn More be vertically aligned
 
 ### Useful resources
 
-- [MDN](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjoj-Gj1svwAhUaSX0KHXPaBTIQFjAAegQIDBAE&url=https%3A%2F%2Fdeveloper.mozilla.org%2F&usg=AOvVaw2SKyx0njvBQRAGWeriS8JP) - 
+- [MDN](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjoj-Gj1svwAhUaSX0KHXPaBTIQFjAAegQIDBAE&url=https%3A%2F%2Fdeveloper.mozilla.org%2F&usg=AOvVaw2SKyx0njvBQRAGWeriS8JP)
 
 ## Author
 
