@@ -1,0 +1,205 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Reset CSS */
+
+html{
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+box-sizing: border-box;  
+}
+main{
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+
+  margin: 2em 1em;
+ padding: 15px 15px;
+ width: 100%;
+ max-width: 960px;
+ display: flex;
+ flex-direction: column;
+
+
+}
+
+.col{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  font-size: 15px;
+}
+.col h1{
+  /* background-color: turquoise; */
+  font-family: 'Big Shoulders Display', cursive;
+ text-transform: uppercase;
+ color: hsl(0, 0%, 95%);
+ font-size: 3em;
+ margin: 0.8em 0;
+
+}
+.col:nth-child(1){
+  border-radius: 0.4em 0.4em 0 0;
+  background-color:hsl(31, 77%, 52%);
+}
+
+.col:nth-child(2){
+background-color: hsl(184, 100%, 22%);
+}
+
+.col:nth-child(3){
+  background-color:hsl(179, 100%, 13%);
+  border-radius: 0 0 0.4em 0.4em;
+  }
+
+  .col img{
+    
+    text-align: left;
+  }
+
+  .col p{
+    /* background-color: tomato; */
+   
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height: 1.8em;
+    margin: 0.8em 0 ;
+    font-size: 1.2em;
+
+  }
+  .col button{
+     font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 2em;
+    background-color: hsl(0, 0%, 95%);
+    display: inline-block;
+    padding: 1em 2em;
+    margin: 25px 0; 
+    font-size: 1.2em;
+    transition: all 300ms ease-out;
+  }
+
+  
+
+  .col:nth-child(1) button{
+    color: hsl(31, 77%, 52%);
+  }
+
+  .col:nth-child(1) button:active{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+  }
+
+  .col:nth-child(2) button{
+    color: hsl(184, 100%, 22%);
+  }
+
+  .col:nth-child(2) button:active{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+  }
+  
+  .col:nth-child(3) button{
+    color: hsl(179, 100%, 13%);
+  }
+
+  .col:nth-child(3) button:active{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+  }
+  .container3{
+    width: 100%;
+    margin: 3em 0;
+    /* background-color: yellowgreen; */
+  }
+
+  @media (min-width: 600px){
+
+    .container{
+      width: 80%;
+    }
+    .container3{
+      width: 70%
+    }
+    .col p{
+      text-align: justify;
+    }
+  }
+
+  
+ @media (min-width: 910px){
+   .container{
+     flex-direction: row;
+   }
+
+   .container3{
+     margin: auto;
+  
+    width: 90%;
+    height: 100%;
+    
+  }
+
+  .col p{
+    width: 100%;
+    height: 40%;
+    text-align: left;
+  }
+
+  .col:first-child{
+    border-radius: 0.4em 0 0 0.4em;
+  }
+
+  .col:last-child{
+    border-radius: 0 0.4em .4em 0 ;
+  }
+ }
